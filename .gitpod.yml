@@ -1,0 +1,8 @@
+tasks:
+  - name: espressif
+    init: ./init.sh |& tee init.log
+    
+
+vscode:
+  extensions:
+    - espressif.esp-idf-extension@1.0.1:CgNK6XBQjTfVZ4DfDrPCMg==
