@@ -1,7 +1,7 @@
 tasks:
   - name: espressif
     init: ./init.sh |& tee init.log
-    
+    command: . esp/esp-idf/export.sh && cd esp/hello_world && idf.py build
 
 vscode:
   extensions:
